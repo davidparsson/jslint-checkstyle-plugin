@@ -8,13 +8,14 @@
     <relativePath>../analysis-pom/pom.xml</relativePath>
   </parent>
 
-  <artifactId>checkstyle</artifactId>
+  <artifactId>jslint-checkstyle</artifactId>
   <packaging>hpi</packaging>
-  <name>Checkstyle Plug-in</name>
+  <name>JSLint Checkstyle Plug-in</name>
   <version>3.36-SNAPSHOT</version>
   <url>http://wiki.jenkins-ci.org/x/GYCGAQ</url>
   <description>This plug-in generates the trend report for
-    Checkstyle, an open source static code analysis program.</description>
+    JSLint reports in Checkstyle format. JSLint is an open
+    source static code analysis program.</description>
 
   <licenses>
     <license>

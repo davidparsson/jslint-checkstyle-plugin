@@ -1,4 +1,4 @@
-rm -rf $JENKINS_HOME/plugins/checkstyle*
+rm -rf $JENKINS_HOME/plugins/jslint-checkstyle*
 
 mvn install || { echo "Build failed"; exit 1; }
 
