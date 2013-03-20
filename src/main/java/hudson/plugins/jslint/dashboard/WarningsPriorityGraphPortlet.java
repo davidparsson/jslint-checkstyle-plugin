@@ -1,7 +1,11 @@
 package hudson.plugins.jslint.dashboard;
 
+import org.kohsuke.stapler.DataBoundConstructor;
+
 import hudson.Extension;
+
 import hudson.model.Descriptor;
+
 import hudson.plugins.analysis.core.AbstractProjectAction;
 import hudson.plugins.analysis.dashboard.AbstractWarningsGraphPortlet;
 import hudson.plugins.analysis.graph.BuildResultGraph;
@@ -9,8 +13,6 @@ import hudson.plugins.analysis.graph.PriorityGraph;
 import hudson.plugins.jslint.CheckStyleProjectAction;
 import hudson.plugins.jslint.Messages;
 import hudson.plugins.view.dashboard.DashboardPortlet;
-
-import org.kohsuke.stapler.DataBoundConstructor;
 
 /**
  * A portlet that shows the warnings trend graph by priority.
@@ -44,7 +46,7 @@ public final class WarningsPriorityGraphPortlet extends AbstractWarningsGraphPor
 
     @Override
     protected String getPluginName() {
-        return "checkstyle";
+        return "jslint-checkstyle";
     }
 
     @Override

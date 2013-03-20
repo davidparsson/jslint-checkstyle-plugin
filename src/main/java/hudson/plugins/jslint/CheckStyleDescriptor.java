@@ -1,6 +1,7 @@
 package hudson.plugins.jslint;
 
 import hudson.Extension;
+
 import hudson.plugins.analysis.core.PluginDescriptor;
 
 /**
@@ -11,7 +12,7 @@ import hudson.plugins.analysis.core.PluginDescriptor;
 @Extension(ordinal = 100) // NOCHECKSTYLE
 public final class CheckStyleDescriptor extends PluginDescriptor {
     /** The ID of this plug-in is used as URL. */
-    static final String PLUGIN_ID = "checkstyle";
+    static final String PLUGIN_ID = "jslint-checkstyle";
     /** The URL of the result action. */
     static final String RESULT_URL = PluginDescriptor.createResultUrlName(PLUGIN_ID);
     /** Icons prefix. */
