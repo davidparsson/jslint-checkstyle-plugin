@@ -1,23 +1,25 @@
 package hudson.plugins.jslint;
 
+import java.io.IOException;
+
+import org.apache.commons.lang.StringUtils;
+import org.kohsuke.stapler.DataBoundConstructor;
+
 import hudson.Launcher;
 import hudson.matrix.MatrixAggregator;
 import hudson.matrix.MatrixBuild;
+
 import hudson.model.Action;
 import hudson.model.BuildListener;
 import hudson.model.AbstractBuild;
 import hudson.model.AbstractProject;
+
 import hudson.plugins.analysis.core.FilesParser;
 import hudson.plugins.analysis.core.HealthAwarePublisher;
 import hudson.plugins.analysis.core.ParserResult;
 import hudson.plugins.analysis.core.BuildResult;
 import hudson.plugins.analysis.util.PluginLogger;
 import hudson.plugins.jslint.parser.CheckStyleParser;
-
-import java.io.IOException;
-
-import org.apache.commons.lang.StringUtils;
-import org.kohsuke.stapler.DataBoundConstructor;
 
 /**
  * Publishes the results of the Checkstyle analysis  (freestyle project type).
@@ -135,7 +137,7 @@ public class CheckStylePublisher extends HealthAwarePublisher {
 
     @Override
     public BuildResult perform(final AbstractBuild<?, ?> build, final PluginLogger logger) throws InterruptedException, IOException {
-        logger.log("Collecting checkstyle analysis files...");
+        logger.log("Collecting JSLint analysis files...");
 
         FilesParser parser = new FilesParser(PLUGIN_NAME, StringUtils.defaultIfEmpty(getPattern(), DEFAULT_PATTERN),
                 new CheckStyleParser(getDefaultEncoding()),
