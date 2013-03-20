@@ -17,7 +17,7 @@ import hudson.plugins.jslint.parser.Warning;
  * @author Ulli Hafner
  */
 public class CheckStyleResult extends BuildResult {
-    private static final long serialVersionUID = 2768250056765266658L;
+    private static final long serialVersionUID = 840050104901025265L;
 
     /**
      * Creates a new instance of {@link CheckStyleResult}.

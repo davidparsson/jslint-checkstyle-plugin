@@ -1,10 +1,10 @@
 package hudson.plugins.jslint;
 
+import org.jvnet.localizer.Localizable;
+
 import hudson.plugins.analysis.core.AbstractHealthDescriptor;
 import hudson.plugins.analysis.core.HealthDescriptor;
 import hudson.plugins.analysis.util.model.AnnotationProvider;
-
-import org.jvnet.localizer.Localizable;
 
 /**
  * A health descriptor for CheckStyle build results.
@@ -13,7 +13,7 @@ import org.jvnet.localizer.Localizable;
  */
 public class CheckStyleHealthDescriptor extends AbstractHealthDescriptor {
     /** Unique ID of this class. */
-    private static final long serialVersionUID = -3404826986876607396L;
+    private static final long serialVersionUID = -5415415342684251597L;
 
     /**
      * Creates a new instance of {@link CheckStyleHealthDescriptor} based on the

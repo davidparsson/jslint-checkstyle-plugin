@@ -1,6 +1,7 @@
 package hudson.plugins.jslint;
 
 import hudson.model.AbstractBuild;
+
 import hudson.plugins.analysis.core.ParserResult;
 import hudson.plugins.analysis.core.ResultAction;
 import hudson.plugins.analysis.core.BuildResult;
@@ -14,7 +15,7 @@ import hudson.plugins.analysis.core.BuildResult;
 @Deprecated
 public class CheckStyleMavenResult extends CheckStyleResult {
     /** Unique ID of this class. */
-    private static final long serialVersionUID = -4913938782537266259L;
+    private static final long serialVersionUID = 6069200879553664629L;
 
     /**
      * Creates a new instance of {@link CheckStyleMavenResult}.

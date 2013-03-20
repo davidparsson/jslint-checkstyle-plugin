@@ -1,10 +1,10 @@
 package hudson.plugins.jslint.parser;
 
+import org.apache.commons.lang.StringUtils;
+
 import hudson.plugins.analysis.util.model.AbstractAnnotation;
 import hudson.plugins.analysis.util.model.Priority;
 import hudson.plugins.jslint.rules.CheckStyleRules;
-
-import org.apache.commons.lang.StringUtils;
 
 /**
  * A serializable Java Bean class representing a warning.
@@ -16,7 +16,8 @@ import org.apache.commons.lang.StringUtils;
  */
 public class Warning extends AbstractAnnotation {
     /** Unique identifier of this class. */
-    private static final long serialVersionUID = 5171661552905752370L;
+    private static final long serialVersionUID = -4136789364111214242L;
+
     /** Origin of the annotation. */
     public static final String ORIGIN = "checkstyle";
 

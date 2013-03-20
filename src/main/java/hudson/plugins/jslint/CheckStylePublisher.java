@@ -28,7 +28,7 @@ import hudson.plugins.jslint.parser.CheckStyleParser;
  */
 public class CheckStylePublisher extends HealthAwarePublisher {
     /** Unique ID of this class. */
-    private static final long serialVersionUID = 6369581633551160418L;
+    private static final long serialVersionUID = -8330254754318036691L;
 
     private static final String PLUGIN_NAME = "CHECKSTYLE";
 

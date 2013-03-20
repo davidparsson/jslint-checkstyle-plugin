@@ -1,6 +1,7 @@
 package hudson.plugins.jslint;
 
 import hudson.model.AbstractBuild;
+
 import hudson.plugins.analysis.core.ParserResult;
 import hudson.plugins.analysis.core.ResultAction;
 import hudson.plugins.analysis.core.BuildResult;
@@ -11,7 +12,7 @@ import hudson.plugins.analysis.core.BuildResult;
  * @author Ulli Hafner
  */
 public class CheckStyleReporterResult extends CheckStyleResult {
-    private static final long serialVersionUID = 6414012312137436141L;
+    private static final long serialVersionUID = -8901174632327541352L;
 
     /**
      * Creates a new instance of {@link CheckStyleReporterResult}.
