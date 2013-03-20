@@ -16,7 +16,7 @@ public final class CheckStyleDescriptor extends PluginDescriptor {
     /** The URL of the result action. */
     static final String RESULT_URL = PluginDescriptor.createResultUrlName(PLUGIN_ID);
     /** Icons prefix. */
-    static final String ICON_URL_PREFIX = "/plugin/checkstyle/icons/";
+    static final String ICON_URL_PREFIX = "/plugin/jslint-checkstyle/icons/";
     /** Icon to use for the result and project action. */
     static final String ICON_URL = ICON_URL_PREFIX + "checkstyle-24x24.png";
 
