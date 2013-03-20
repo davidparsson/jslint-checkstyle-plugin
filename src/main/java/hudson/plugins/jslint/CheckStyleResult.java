@@ -1,13 +1,14 @@
 package hudson.plugins.jslint;
 
+import com.thoughtworks.xstream.XStream;
+
 import hudson.model.AbstractBuild;
+
 import hudson.plugins.analysis.core.BuildHistory;
 import hudson.plugins.analysis.core.ParserResult;
 import hudson.plugins.analysis.core.ResultAction;
 import hudson.plugins.analysis.core.BuildResult;
 import hudson.plugins.jslint.parser.Warning;
-
-import com.thoughtworks.xstream.XStream;
 
 /**
  * Represents the results of the Checkstyle analysis. One instance of this class
@@ -92,7 +93,7 @@ public class CheckStyleResult extends BuildResult {
      */
     @Override
     protected String getSerializationFileName() {
-        return "checkstyle-warnings.xml";
+        return "jslint-warnings.xml";
     }
 
     /** {@inheritDoc} */
