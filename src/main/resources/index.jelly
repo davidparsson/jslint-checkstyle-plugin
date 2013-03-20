@@ -1,6 +1,6 @@
 <div>
-  This plug-in collects the <a href="http://checkstyle.sourceforge.net/">Checkstyle</a> analysis
-  results of the project modules and visualizes the found warnings.
+  This plug-in collects the JSLint analysis results (in <a href="http://checkstyle.sourceforge.net/">Checkstyle</a> format)
+  of the project modules and visualizes the found warnings.
   <p>
     If you like this open source plug-in please consider supporting my
     work by buying my Android game
