@@ -36,7 +36,7 @@ public class CheckStyleReporter extends HealthAwareReporter<CheckStyleResult> {
     private static final String PLUGIN_NAME = "CHECKSTYLE";
 
     /** Default Checkstyle pattern. */
-    private static final String CHECKSTYLE_XML_FILE = "checkstyle-result.xml";
+    private static final String CHECKSTYLE_XML_FILE = "jslint-result.xml";
 
     /**
      * Creates a new instance of <code>CheckStyleReporter</code>.

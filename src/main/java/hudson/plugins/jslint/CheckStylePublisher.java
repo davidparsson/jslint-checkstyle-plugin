@@ -31,7 +31,7 @@ public class CheckStylePublisher extends HealthAwarePublisher {
     private static final String PLUGIN_NAME = "CHECKSTYLE";
 
     /** Default Checkstyle pattern. */
-    private static final String DEFAULT_PATTERN = "**/checkstyle-result.xml";
+    private static final String DEFAULT_PATTERN = "**/jslint-result.xml";
     /** Ant file-set pattern of files to work with. */
     private final String pattern;
 
