@@ -30,7 +30,7 @@ public class CheckStylePublisher extends HealthAwarePublisher {
     /** Unique ID of this class. */
     private static final long serialVersionUID = -8330254754318036691L;
 
-    private static final String PLUGIN_NAME = "CHECKSTYLE";
+    private static final String PLUGIN_NAME = "JSLINT";
 
     /** Default Checkstyle pattern. */
     private static final String DEFAULT_PATTERN = "**/jslint-result.xml";
