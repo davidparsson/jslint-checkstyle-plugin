@@ -11,7 +11,7 @@
   <artifactId>jslint-checkstyle</artifactId>
   <packaging>hpi</packaging>
   <name>JSLint Report Plug-in</name>
-  <version>3.35-SNAPSHOT</version>
+  <version>3.35</version>
   <url>http://wiki.jenkins-ci.org/x/GYCGAQ</url>
   <description>This plug-in generates the trend report for
     JSLint reports in Checkstyle format. JSLint is an open
