@@ -1,20 +1,20 @@
 package hudson.plugins.jslint.parser;
 
+import java.io.File;
+
+import org.junit.Assert;
+import org.junit.Ignore;
+import org.junit.Test;
+
+import com.thoughtworks.xstream.XStream;
+
 import hudson.XmlFile;
+
 import hudson.plugins.analysis.test.AbstractSerializeModelTest;
 import hudson.plugins.analysis.util.model.AbstractAnnotation;
 import hudson.plugins.analysis.util.model.AnnotationStream;
 import hudson.plugins.analysis.util.model.JavaProject;
 import hudson.plugins.analysis.util.model.Priority;
-import hudson.plugins.jslint.parser.Warning;
-
-import java.io.File;
-
-import org.junit.Assert;
-
-import org.junit.Test;
-
-import com.thoughtworks.xstream.XStream;
 
 /**
  * Tests the serialization of the model.
@@ -73,6 +73,7 @@ public class BugSerializeModelTest extends AbstractSerializeModelTest {
      * deserialization of the file format of release 2.2.
      */
     @Test
+    @Ignore("Checked in project.ser is a serialized object of an old version")
     public void ensureSameSerialization() {
         JavaProject project = deserialize("project.ser");
 
